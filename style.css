@@ -1,0 +1,234 @@
+.navbar-default{
+    background: rgb(51, 4, 138);
+    color: white;
+}
+.navbar-default ul li{
+    color: white;
+}
+.bellimage{
+    width: 20px;
+    height: 20px;
+}
+.backimg{
+    margin: auto;
+    margin-left: 330px;
+    width: 650px;
+    height: 550px;
+    float:right;
+    margin-right: 180px;
+}
+.header-background{
+    background-color: rgb(51,4,138);
+    margin-top: 0px;
+}
+.mlclass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 300px;
+    width: 350px;
+    height: 550px;
+}
+.content{
+    margin-top: 140px;
+    color: white;
+    letter-spacing: .5px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+body{
+    width: 100%;
+}
+.header{
+    height: 50px;
+    background-image: url("https://www.gstatic.com/mobilesdk/200429_mobilesdk/cloud_firestore_fore2x.png");
+}
+  
+.learn{
+    height: 616;
+    width: 264;
+    margin-left: 200px;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    flex-direction: column;
+}
+.features{
+    align-content: center;
+    margin-left: 200px;
+}
+.l{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+.middlepart{
+    font-family: Arial, Helvetica, sans-serif;
+}
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 300px;
+    padding: 0 10px ;
+    margin-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    height: auto;
+    min-height: 88px;
+    
+  }
+  
+ /* Remove extra left and right margins, due to padding */
+.middlepart .row {margin: 0 -50px;}
+ 
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 300px;
+  }
+  .card:hover{
+    cursor: pointer;
+  }
+
+.card-header{
+    
+    display: inline;
+    display: flex;
+}
+.card-body{
+    
+    display: inline;
+    display: flex;
+}
+.card-footer{
+    
+    display: inline;
+    display: flex;
+}
+.icon{
+    align-items: center;
+    border-radius: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    justify-content: center;
+    width: 48px;
+    background-color: #00b8d4;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 16px;
+    float: left;
+    color: rgba(0,0,0,.87);
+    font-family: "Google Sans",sans-serif;
+    font-size: 10px;
+    letter-spacing: .24px;
+    line-height: 24px;
+    text-align: left;
+    display: block;
+}
+.card-header:hover{
+    background-color:grey;
+    border-radius: 5px;
+}
+.card-body:hover{
+  background-color:grey
+  ;
+  border-radius: 5px;
+}
+.card-footer:hover{
+  background-color: grey;
+  border-radius: 5px;
+}
+.footer{
+    height: 130px;
+    background-color:#e5eaf0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .down1{
+    text-align: left;
+    float: left;
+    background-color: #9c378f;
+    color: white;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    padding: 16px 20px 40px;
+  }
+  
+  .down2{
+    text-align: left;
+    float: left;
+    background-color: rgba(248, 67, 35, 0.897);
+    color: white;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    padding: 16px 20px 40px;
+  }
+  .down3{
+    text-align: left;
+    float: left;
+    background-color: rgb(85, 193, 201);
+    color: white;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    padding: 16px 20px 40px;
+  }
+img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .column:hover{
+    cursor: pointer;
+  }
+
+  .link{
+    margin-top: 15px;
+    text-align: right;
+  }
